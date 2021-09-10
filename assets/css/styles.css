@@ -6,8 +6,8 @@
   --header-height: 3rem;
 
   /*========== Colors ==========*/
-  --first-color: #19a7ac;
-  --first-color-alt: #046063;
+  --first-color: #956AF0;
+  --first-color-alt: #FD8597;
   --title-color: #393939;
   --text-color: #707070;
   --text-color-light: #A6A6A6;
@@ -67,7 +67,7 @@ body.dark-theme{
   --title-color: #F1F3F2;
   --text-color: #C7D1CC;
   --body-color: #091522;
-  --container-color: #27302C;
+  --container-color: #272830;
 }
 
 /*========== Button Dark/Light ==========*/

@@ -9,6 +9,7 @@
         <link rel="icon" href="assets/img/feather-pen.svg">
         <!--========== CSS ==========-->
         <link rel="stylesheet" href="assets/css/styles.css">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
         <title>bytesquill</title>
     </head>
@@ -22,7 +23,7 @@
         <!--========== HEADER ==========-->
         <header class="l-header" id="header">
             <nav class="nav bd-container">
-                <a href="#" class="nav__logo"><img style="max-height: 30px;" src='assets/img/feather-pen.svg'/>  bytesquill</a>
+                
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
@@ -30,15 +31,18 @@
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
                         <li class="nav__item"><a href="#menu" class="nav__link">Projects</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact us  </a></li>
 
                         <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
                     </ul>
                 </div>
 
+
                 <div class="nav__toggle" id="nav-toggle">
                     <i class='bx bx-menu'></i>
                 </div>
+
+                <a href="#" class="nav__logo"><img style="max-height: 30px;" src='assets/img/feather-pen.svg'/>  bytesquill</a>
             </nav>
         </header>
 
@@ -49,24 +53,25 @@
                     <div class="home__data">
                         <h1 class="home__title">bytesquill</h1>
                         <h2 class="home__subtitle">Your coding needs <br> delivered.</h2>
-                        <h4>Your boutique on Fremont Street needs to expand and reach customers around the globe?<br><br>Your art studio needs a platform to schedule your clients? Your enterprise project needs a professional helping hand? <br><br>We gotch'u!</h4>
-                        <a href="mailto:fenali@bytesquill.com" class="button">Email Us</a>
+                        <p>Your boutique needs to expand and reach customers around the globe?<br><br>Your art studio needs a platform to schedule your clients? Your enterprise project needs a professional helping hand? <br><br>We gotch'u!<br><br></p>
+                        <a href="mailto:fenali@bytesquill.com?subject=Hi, bysquill!" class="button">Let's talk</a>
                     </div>
-    
+                    <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_w0jj5msg.json"  background="transparent"  speed="0.6"  style="width: 300px; height: 300px;" loop autoplay></lottie-player>
                 </div>
             </section>
             
             <!--========== ABOUT ==========-->
             <section class="about section bd-container" id="about">
                 <div class="about__container  bd-grid">
+                    <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_ufsxol9x.json"  background="transparent"  speed="0.6"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>
                     <div class="about__data">
                         <span class="section-subtitle about__initial">bytesquill is the answer to</span>
                         <h2 class="section-title about__initial">time and cost effictive quality code<br></h2>
                         
-                        <p class="about__description">Here at bytesquill, we bring expertise from around the globe cater to your coding needs with flexible pricing plans.</p>
+                        <p class="about__description">Here at bytesquill, we bring expertise from around the globe to cater to your coding needs with flexible pricing plans.</p>
                         <a href="#services" class="button">Explore our services</a>
                     </div>
-
+                    
                 </div>
             </section>
 
@@ -101,7 +106,7 @@
                 <div class="menu__container bd-grid">
                     <div class="menu__content">
                         <img src="assets/img/plate1.png" alt="" class="menu__img">
-                        <h3 class="menu__name">A hairsalon Tutorials App </h3>
+                        <h3 class="menu__name">A hair-salon Tutorials Web-app </h3>
                         <span class="menu__detail">Landing page and a Full-fledge course management portal</span>
                         <span class="menu__preci">Fullstack Development</span>
                         
@@ -152,7 +157,7 @@
                     </div>
 
                     <div class="contact__button">
-                        <a href="mailto:fenali@bytesquill.com" class="button">Contact us now</a>
+                        <a href="mailto:fenali@bytesquill.com?subject=Hi, bysquill!" class="button">Contact us now</a>
                     </div>
                 </div>
             </section>
@@ -176,26 +181,21 @@
                 </div>
 
                 <div class="footer__content">
-                    <h3 class="footer__title">Offices</h3>
+                    <h3 class="footer__title">Contact</h3>
                     <ul>
-                        <li><a href="#" class="footer__link">Santa Clara, CA, USA</a></li>
-                        <li><a href="#" class="footer__link">Kirkland, WA, USA</a></li>
-                        <li><a href="#" class="footer__link">Mumbai, India</a></li>
-                        <li><a href="#" class="footer__link">Ahmedabad, India</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer__content">
-                    <h3 class="footer__title">Headquarters</h3>
-                    <ul>
-                        <li>2, Monanagar Soc.</li>
-                        <li>Ambawadi, Ahmedabad,</li>
-                        <li>Gujarat 380015</li>
                         <li>fenali@bytesquill.com</li>
                     </ul>
                 </div>
 
-                
+                <div class="footer__content">
+                    <h3 class="footer__title">Offices</h3>
+                    <ul>
+                        <li><a href="" class="footer__link">Santa Clara, CA, USA</a></li>
+                        <li><a href="" class="footer__link">Kirkland, WA, USA</a></li>
+                        <li><a href="" class="footer__link">Mumbai, India</a></li>
+                        <li><a href="" class="footer__link">Ahmedabad, India</a></li>
+                    </ul>
+                </div>
             </div>
 
             <p class="footer__copy">&#169; 2021 fey inc. All right reserved</p>
