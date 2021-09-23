@@ -155,14 +155,14 @@ img{
 
 /*========== NAV ==========*/
 .nav{
-  max-width: 1280px;
+  max-width: 1350px;
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1280px){
   .nav__menu{
     position: fixed;
     top: -100%;
