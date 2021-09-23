@@ -133,7 +133,7 @@ img{
 
 /*========== LAYOUT ==========*/
 .bd-container{
-  max-width: 960px;
+  max-width: 100%;
   width: calc(100% - 2rem);
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
@@ -155,7 +155,7 @@ img{
 
 /*========== NAV ==========*/
 .nav{
-  max-width: 1024px;
+  max-width: 90%;
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
@@ -292,6 +292,7 @@ img{
 }
 
 /*========== ABOUT ==========*/
+
 .about__data{
   text-align: center;
 }
@@ -407,6 +408,8 @@ img{
 /*========== CONTACT ==========*/
 .contact__container{
   text-align: center;
+  margin-left: var(--mb-4);
+  margin-right: var(--mb-4);
 }
 
 .contact__description{
